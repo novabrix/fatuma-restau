@@ -1,0 +1,179 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+    font-size: 62.5%;
+  }
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+/* ==== CSS RESET END ==== */
+
+* {
+  font-family: arial;
+}
+
+a {
+  font-weight: 600;
+}
+
+a:hover,
+.logoText:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(255, 214, 168);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(43, 43, 80);
+  color: white;
+  padding: 2vh;
+  border-bottom: 1vh solid rgb(255, 255, 255);
+}
+
+.logoText {
+  font-size: 5vh;
+  font-weight: 700;
+}
+
+.sideContent {
+  display: flex;
+  justify-content: space-around;
+  gap: 10vh;
+  font-size: 4vh;
+  align-items: center;
+}
+
+.hero {
+  background-image: url(img/refinedRestau.jpg);
+
+  color: white;
+  font-size: 4vh;
+  height: 70vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero > * {
+  margin: 1vh;
+}
+
+.title {
+  font-size: 12vh;
+  margin-bottom: 0;
+  font-weight: 800;
+}
+
+.content {
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutDiv,
+.contentHolder {
+  padding: 1rem;
+  background-color: rgb(236, 236, 236);
+  border-radius: 1vh;
+  letter-spacing: 0.1vh;
+  font-size: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  margin: 4vh;
+}
+
+.aboutDiv > * {
+  margin: 2vh;
+}
+
+.aboutTitle,
+.contentTitle {
+  font-size: 4.5vh;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.otherContent {
+  display: flex;
+  width: 90vw;
+  margin: 5vw;
+}
+
+.contentHolder {
+  background-color: white;
+  border-radius: none;
+  width: 40vw;
+  margin: 0;
+  font-size: 2.5vh;
+}
+
+.contentTitle {
+  font-size: 3.75vh;
+}
+
+.two {
+  border: none;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  font-size: 3.5vh;
+  padding: 1vh;
+  font-weight: 600;
+
+  display: flex;
+  justify-content: center;
+}
